@@ -1,0 +1,16 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "Automation tests using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:local": "export NODE_ENV=preprod && cypress run --browser chrome --spec 'cypress/integration/src/**/*.spec.*.js'"
+  },
+  "author": "Sidramayya",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.12.1",
+    "cypress-xpath": "^1.6.0"
+  }
+}
